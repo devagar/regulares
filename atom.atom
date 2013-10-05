@@ -1,0 +1,32 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>Aulas Regulares</title>
+  <link href="http://devagar.github.io/regulares"/>
+  <link type="application/atom+xml" rel="self" href="http://devagar.github.io/regulares/atom.atom"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://devagar.github.io/regulares/</id>
+  <author>
+    <name>Lourenco de Azevedo</name>
+    <email>lourenco.azevedo@gmx.com</email>
+  </author>
+
+   {% for post in site.posts limit:1 %}
+  <entry>
+    <id>http://devagar.github.io/regulares{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://devagar.github.io/regulares{{ post.url }}"/>
+    <title>{{ post.title }}</title>
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>"Lourenco de Azevedo"</name>
+      <uri>http://devagar.github.io/regulares</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>

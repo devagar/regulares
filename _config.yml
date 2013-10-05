@@ -1,0 +1,13 @@
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+posts: 	     ./_posts
+layouts:     ./_layouts
+include:     ['.htaccess']
+exclude:     []
+name: mZero
+description: Ideias para simplificar
+url: http://mzero.co
+safe: true
+lsi: false
+pygments: true
