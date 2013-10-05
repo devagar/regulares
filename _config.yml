@@ -11,3 +11,4 @@ url: http://mzero.co
 safe: true
 lsi: false
 pygments: true
+future: false
