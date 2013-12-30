@@ -6,10 +6,11 @@
     <meta name="keywords" content= "" />
     <meta name="description" content="" />
     <link rel="alternate" type="application/atom+xml" title="Zhan Zhuang 365" href="http://devagar.github.io/regulares/atom.atom" />
-    <link rel="stylesheet" href="http://devagar.github.io/regulares/base.css">
-    <link rel="stylesheet" href="http://devagar.github.io/regulares/skeleton.css">
-    <link rel="stylesheet" href="http://devagar.github.io/regulares/layout.css">
-    <link rel="stylesheet" href="http://devagar.github.io/regulares/style.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="comment.css">
   </head>
   <body>
     <div class="container navbar navbar-top">
@@ -26,8 +27,68 @@
         <p><h4>::E se fosse possível praticar todos os dias</h3></p>
         <br>
             {{ content }}
+
+            <!-- customize labels of htmlcommentbox.com -->
+          <script>
+          // This code goes ABOVE the main HTML Comment Box code!
+          // replace the text in the single quotes below to customize labels.
+          hcb_user = {
+              //L10N
+              comments_header : 'Perguntas e reflexões sobre esta aula',
+              name_label : 'Nome',
+              content_label: 'Insira aqui a sua pergunta ou reflexão',
+              submit : 'Publicar',
+              logout_link : '<img title="log out" src="//www.htmlcommentbox.com/static/images/door_out.png" alt="[logout]" class="hcb-icon"/>',
+              admin_link : '<img src="//www.htmlcommentbox.com/static/images/door_in.png" alt="[login]" class="hcb-icon"/>',
+              no_comments_msg: '',
+              add:'Insira a sua pergunta ou reflexão',
+              again: 'Publicar outra questão ou reflexão',
+              rss:'<img src="//www.htmlcommentbox.com/static/images/feed.png" class="hcb-icon" alt="rss"/> ',
+              said:'said:',
+              prev_page:'<img src="//www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
+              next_page:'<img src="//www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
+              showing:'Showing',
+              to:'to',
+              website_label:'website (opcional)',
+              email_label:'email',
+              anonymous:'Anónimo',
+              mod_label:'(mod)',
+              subscribe:'Envie-me as respostas por email',
+              are_you_sure:'Deseja marcar este comentários como inapropriado',
+              
+              reply:'<img src="//www.htmlcommentbox.com/static/images/reply.png"/> reply',
+              flag:'<img src="//www.htmlcommentbox.com/static/images/flag.png"/> flag',
+              like:'<img src="//www.htmlcommentbox.com/static/images/like.png"/> like',
+              
+              //dates
+              days_ago:'dias atrás',
+              hours_ago:'horas atrás',
+              minutes_ago:'minutos atrás',
+              within_the_last_minute:'no último minuto',
+
+              msg_thankyou:'Obrigado pela sua particpação',
+              msg_approval:'(Esta reflexão ou pergunta só será publicada depois de ser moderada',
+              msg_approval_required:'Muito obrigado pela sua participação, o que escreveu será publicado depois de aprovado pelo moderador',
+              
+              err_bad_html:'O seu comentário inclui html não válido',
+              err_bad_email:'Por favor utilize um email válido!',
+              err_too_frequent:'Deve esperar alguns segundos entre cada publicação',
+              err_comment_empty:'O seu comentário não foi publicado porque se encontra vazio!',
+              err_denied:'A sua pergunta ou reflexão não foi aceite!',
+
+              //SETTINGS
+              MAX_CHARS: 2048,
+              PAGE:'', // ID of the webpage to show comments for. defaults to the webpage the user is currently visiting.
+              RELATIVE_DATES:true // show dates in the form "X hours ago." etc.
+          };
+          </script>
+            <!-- done customizing labels of htmlcommentbox.com -->
+            <!-- begin htmlcommentbox.com -->
+           <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
+           <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=(hcb_user.PAGE || ""+window.location), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%242M0H93AS8rbPxkh4mjGMF%2F"+"&opts=16862&num=10");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+          <!-- end htmlcommentbox.com -->   
      </div>
-    </div>   
+    </div> 
 </strong>
 
 </body>
