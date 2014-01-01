@@ -52,7 +52,7 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 16px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -83,8 +83,8 @@
 	small { font-size: 80%; }
 
 /*	Blockquotes  */
-	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
-	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+	blockquote, blockquote p { font-size: 21px; line-height: 33px; color: #777; font-style: italic; }
+	blockquote { margin: 0 0 20px; padding: 0px 0px 0 19px;}
 	blockquote cite { display: block; font-size: 12px; color: #555; }
 	blockquote cite:before { content: "\2014 \0020"; }
 	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
@@ -94,9 +94,10 @@
 
 /* #Links
 ================================================== */
-	a, a:visited { color: #333; text-decoration: underline; outline: 0; }
+	/*a, a:visited { color: #ff6600; text-decoration: underline; outline: 0; }
+	
 	a:hover, a:focus { color: #000; }
-	p a, p a:visited { line-height: inherit; }
+	p a, p a:visited { color: #ff6600 line-height: inherit; }*/
 
 
 /* #Lists
@@ -109,12 +110,12 @@
 	ul.circle { list-style: circle outside; }
 	ul.disc { list-style: disc outside; }
 	ul ul, ul ol,
-	ol ol, ol ul { margin: 4px 0 5px 10px; font-size: 100%;  }
+	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
 	ul ul li, ul ol li,
 	ol ol li, ol ul li { margin-bottom: 6px; }
 	li { line-height: 18px; margin-bottom: 12px; }
 	ul.large li { line-height: 21px; }
-	li p { line-height: 28px; }
+	li p { line-height: 38px; }
 
 /* #Images
 ================================================== */
@@ -147,8 +148,8 @@
 	  border-radius: 3px;
 	  color: #444;
 	  display: inline-block;
-	  font-size: 11px;
-	  font-weight: bold;
+	  font-size: 17px;
+	  /*font-weight: bold;*/
 	  text-decoration: none;
 	  text-shadow: 0 1px rgba(255, 255, 255, .75);
 	  cursor: pointer;

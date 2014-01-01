@@ -2,13 +2,44 @@
 layout: default
 title: Aulas Regulares
 ---
-<div class='post'>
-    <div class='body'>
-    {% for post in site.posts limit:1 %}
-    	 <time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%d %b, %Y" }}</time>
-      	<h2>{{ post.title }}</h2>
-      	{{ post.content }}
-    {% endfor %}
-    </div>
-</div>
-<hr>
+## Sejam bem vindos a mais um curso de aulas de Zhan Zhuang Chi Kung
+
+Esta página contém informação úteis sobre as aulas regulares e activiades a acontecer durante o decorrer deste conjunto de aulas. 
+
+
+f
+f
+
+
+
+ff
+
+f
+f
+g
+g
+g
+g
+g
+
+g
+g
+
+g
+
+g
+g
+g
+gg
+
+
+
+
+
+
+
+
+
+
+
+kjkjk s

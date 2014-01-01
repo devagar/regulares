@@ -4,26 +4,26 @@ layout: nil
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>Zhan Zhuang Chi Kung</title>
-  <link href="http://devagar.github.io/regulares"/>
-  <link type="application/atom+xml" rel="self" href="http://devagar.github.io/regulares/atom.atom"/>
+  <title>Zhan Zhuang Chi Kung Dojo Regulares</title>
+  <link href="http://regulares.devagar.org"/>
+  <link type="application/atom+xml" rel="self" href="http://regulares.devagar.org/rfeed.atom"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://devagar.github.io/regulares/</id>
+  <id>http://regulares.devagar.org/</id>
   <author>
     <name>Lourenco de Azevedo</name>
-    <email>lourenco.azevedo@gmx.com</email>
+    <email>lourenco.azevedo@gmail.com</email>
   </author>
 
    {% for post in site.posts limit:10 %}
   <entry>
-    <id>http://devagar.github.io/regulares{{ post.id }}</id>
-    <link type="text/html" rel="alternate" href="http://devagar.github.io/regulares{{ post.url }}"/>
+    <id>http://regulares.devagar.org{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://regulares.devagar.org{{ post.url }}"/>
     <title>{{ post.title }}</title>
     <published>{{ post.date | date_to_xmlschema }}</published>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
       <name>"Lourenco de Azevedo"</name>
-      <uri>http://devagar.github.io/regulares</uri>
+      <uri>http://regulares.devagar.org</uri>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
