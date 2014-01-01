@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>Zhan Zhuang Chi Kung Dojo Regulares</title>
+  <title>Zhan Zhuang Chi Kung Aulas Regulares</title>
   <link href="http://regulares.devagar.org"/>
   <link type="application/atom+xml" rel="self" href="http://regulares.devagar.org/rfeed.atom"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
