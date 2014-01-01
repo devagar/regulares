@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html><head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Chi Kung Dojo Aulas Regulares</title>
     <meta name="keywords" content= "" />
     <meta name="description" content="" />
@@ -13,7 +13,7 @@
   </head>
 
   <body>
-       <div class="container navbar navbar-top">
+    <div class="container navbar navbar-top">
           <div class="sixteen columns offset-by-three">
             <ul>
               <li> <a href="{{ base.url }}/forum.html">Fórum</a> </li>
@@ -21,13 +21,19 @@
               <li> <a href="mailto:lourenco.azevedo@gmail.com?Subject=Pedido de informção">Contactar-me</a></li>
             </ul>
           </div>
-    </div> 
+    </div>  
 
     <div class="container">
       <div class="fifteen columns offset-by-one">
         <p class="p1"><span class="s1">Zhan Zhuang Chi Kung</span><span class="s2"> </span><span class="s3">|</span><span class="s4"> </span><span class="s5">Aulas Regulares</span></p>
-            {{ content }}
-     </div>
+        	<article>
+            <h5><time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%d %b, %Y" }}</time></h5>
+      		<h2>{{ page.title }}</h2>
+      
+      			{{ content }}
+  	 </article>
+
+     </div>   
 </div> 
 </body>
 </html>
