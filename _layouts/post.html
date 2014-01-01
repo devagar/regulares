@@ -26,10 +26,10 @@
     <div class="container">
       <div class="ten columns offset-by-one">
         <p class="p1"><span class="s1">Zhan Zhuang Chi Kung</span><span class="s2"> </span><span class="s3">|</span><span class="s4"> </span><span class="s5">Regulares</span></p>
-        <br>
         	<article>
+            <h5><time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%d %b, %Y" }}</time></h5>
       		<h2>{{ page.title }}</h2>
-      		<h5><time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%d %b, %Y" }}</time></h5>
+      
       			{{ content }}
   	 </article>
 
@@ -95,7 +95,6 @@
      </div>
       <div class="five columns offset-by-one sidebar ">
          <div class="hfeed">
-             <br>
              <br>
              <br>
              <br>
