@@ -1,46 +1,19 @@
-<!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Chi Kung Dojo Aulas Regulares</title>
-    <meta name="keywords" content= "" />
-    <meta name="description" content="" />
-    <link rel="stylesheet" href="{{ base.url }}/css/base.css">
-    <link rel="stylesheet" href="{{ base.url }}/css/skeleton.css">
-    <link rel="stylesheet" href="{{ base.url }}/css/layout.css">
-    <link rel="stylesheet" href="{{ base.url }}/css/style.css">
-    <link rel="stylesheet" href="{{ base.url }}/css/comment.css">
-  </head>
+---
+layout: default
+---
+<h3> Forum</h3>
 
-  <body>
-    <div class="container navbar navbar-top">
-          <div class="sixteen columns offset-by-three">
-            <ul>
-              <li> <a href="{{ base.url }}/index.html">Inicio</a> </li>
-              <li> <a href="{{ base.url }}/forum.html" target="_blank">Fórum</a> </li>
-              <li> <a href="{{ base.url }}/arquivo.html" target="_blank">Aulas anteriores</a> </li>
-              <li> <a href="mailto:lourenco.azevedo@gmail.com?Subject=Pedido de informção">Contactar-me</a></li>
-            </ul>
-          </div>
-    </div>  
+<p><strong>Este fórum destina-se a colocar dúvidas específicas sobre a prática</p></strong>
 
-    <div class="container">
-      <div class="fifteen columns offset-by-one">
-        <p class="p1"><span class="s1">Zhan Zhuang Chi Kung</span><span class="s2"> </span><span class="s3">|</span><span class="s4"> </span><span class="s5">Aulas Regulares</span></p>
-        	<article>
-            <h5><time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%d %b, %Y" }}</time></h5>
-      		<h2>{{ page.title }}</h2>
-      
-      			{{ content }}
-  	 </article>
+<p>Poderá também responder às perguntas dos outros participantes, partilhando assim a sua experiência.</p>
 
-            <!-- customize labels of htmlcommentbox.com -->
+<!-- customize labels of htmlcommentbox.com -->
            <script>
                 // This code goes ABOVE the main HTML Comment Box code!
                 // replace the text in the single quotes below to customize labels.
                 hcb_user = {
                     //L10N
-                    comments_header : 'Perguntas ou reflexões sobre esta aula',
+                    comments_header : 'Dúvidas ou reflexões específicas sobre a prática',
                     name_label : 'Nome',
                     content_label: 'Insira aqui a sua pergunta ou reflexão',
                     submit : 'Publicar',
@@ -93,8 +66,3 @@
             <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
              <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=(hcb_user.PAGE || ""+window.location), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%242M0H93AS8rbPxkh4mjGMF%2F"+"&opts=16862&num=10");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
               <!-- end htmlcommentbox.com -->   
-     </div>
-      
-</div> 
-</body>
-</html>
