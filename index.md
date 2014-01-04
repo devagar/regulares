@@ -86,4 +86,4 @@ No dia a dia tomamos contacto com esta realidade quando existe falta de mobilida
 
 As costas facilmente se tornam um parente pobre da parte frontal do nosso corpo. É no entanto nas costas que reside a capacidade de nos mantermos de pé devido à coluna vertebral, é onde reside o nosso sistema nervos central e onde tradicionalmente são criadas as possibilidades para realizar o que acreditamos ser o Nosso Sonho. 
 
-Esta informação estará disponível para consulta em qualquer altura na página [principal da plataforma de ensino](http://regulares.devagar.org) e pode ser importante que a consultem para dúvidas referentes à agenda. 
+Boas práticas a todos
